@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/lwj/least_square/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/least_square_autogen",
+	"CMAKE_BINARY_DIR" : "/home/lwj/least_square/build/Desktop_Qt_5_15_17_GCC_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/lwj/least_square/build/Desktop_Qt_5_15_17_GCC_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lwj/least_square",
+	"CMAKE_SOURCE_DIR" : "/home/lwj/least_square",
+	"INCLUDE_DIR" : "/home/lwj/least_square/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/least_square_autogen/include",
+	"INPUTS" : [ "/home/lwj/least_square/resources/data/coordinates.csv" ],
+	"LOCK_FILE" : "/home/lwj/least_square/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/CMakeFiles/least_square_autogen.dir/AutoRcc_least_square_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "least_square" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_least_square.cpp",
+	"RCC_EXECUTABLE" : "/home/lwj/Qt/5.15.17/gcc_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/lwj/least_square/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/CMakeFiles/least_square_autogen.dir/AutoRcc_least_square_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/lwj/least_square/least_square.qrc",
+	"VERBOSITY" : 0
+}

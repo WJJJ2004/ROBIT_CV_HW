@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-7e7aac303c3b4a05054c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "RANSAC_test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "RANSAC_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RANSAC_test-Debug-d3d902fdcd8889056eb6.json",
+					"name" : "RANSAC_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RANSAC_test_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RANSAC_test_autogen-Debug-144b72c6a49d2ca4d57a.json",
+					"name" : "RANSAC_test_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RANSAC_test_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RANSAC_test_autogen_timestamp_deps-Debug-e8fd3033aab30e9fc7b4.json",
+					"name" : "RANSAC_test_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lwj/RANSAC_test/build/Desktop_Qt_5_15_17_GCC_64bit-Debug",
+		"source" : "/home/lwj/RANSAC_test"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
