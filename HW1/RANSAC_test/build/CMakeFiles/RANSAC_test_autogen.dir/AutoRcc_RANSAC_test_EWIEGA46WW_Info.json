@@ -1,19 +1,22 @@
 {
-	"BUILD_DIR" : "/home/lwj/RANSAC_test/build/RANSAC_test_autogen",
-	"CMAKE_BINARY_DIR" : "/home/lwj/RANSAC_test/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/lwj/RANSAC_test/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lwj/RANSAC_test",
-	"CMAKE_SOURCE_DIR" : "/home/lwj/RANSAC_test",
-	"INCLUDE_DIR" : "/home/lwj/RANSAC_test/build/RANSAC_test_autogen/include",
-	"INPUTS" : [ "/home/lwj/RANSAC_test/resources/data/coordinates.csv" ],
-	"LOCK_FILE" : "/home/lwj/RANSAC_test/build/CMakeFiles/RANSAC_test_autogen.dir/AutoRcc_RANSAC_test_EWIEGA46WW_Lock.lock",
+	"BUILD_DIR" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/RANSAC_test_autogen",
+	"CMAKE_BINARY_DIR" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test",
+	"CMAKE_SOURCE_DIR" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test",
+	"INCLUDE_DIR" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/RANSAC_test_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/resources/data/coordinates.csv"
+	],
+	"LOCK_FILE" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles/RANSAC_test_autogen.dir/AutoRcc_RANSAC_test_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "-name", "RANSAC_test" ],
 	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
 	"OUTPUT_NAME" : "qrc_RANSAC_test.cpp",
 	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
 	"RCC_LIST_OPTIONS" : [ "--list" ],
-	"SETTINGS_FILE" : "/home/lwj/RANSAC_test/build/CMakeFiles/RANSAC_test_autogen.dir/AutoRcc_RANSAC_test_EWIEGA46WW_Used.txt",
-	"SOURCE" : "/home/lwj/RANSAC_test/RANSAC_test.qrc",
+	"SETTINGS_FILE" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles/RANSAC_test_autogen.dir/AutoRcc_RANSAC_test_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/RANSAC_test.qrc",
 	"VERBOSITY" : 0
 }

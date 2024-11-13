@@ -1,6 +1,7 @@
 CMakeFiles/RANSAC_test.dir/mainwindow.cpp.o: \
- /home/lwj/RANSAC_test/mainwindow.cpp /usr/include/stdc-predef.h \
- /home/lwj/RANSAC_test/mainwindow.h \
+ /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/mainwindow.cpp \
+ /usr/include/stdc-predef.h \
+ /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -285,7 +286,7 @@ CMakeFiles/RANSAC_test.dir/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
- /home/lwj/RANSAC_test/build/RANSAC_test_autogen/include/ui_mainwindow.h \
+ /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/RANSAC_test_autogen/include/ui_mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \

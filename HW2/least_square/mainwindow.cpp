@@ -37,14 +37,10 @@ MainWindow::~MainWindow()
 
 void MainWindow::drawAxes()
 {
-    int originX = 50;
-    int originY = 0;
-
-    // X, Y 축 그리기
     QPen axisPen(Qt::black);
     axisPen.setWidth(2);
-    scene->addLine(originX, -1000, originX, 1000, axisPen);  // Y 축
-    scene->addLine(-1000, originY, 1000, originY, axisPen);  // X 축
+    scene->addLine(50, -1000, 50, 1000, axisPen);  // Y 축
+    scene->addLine(-1000, 0, 1000, 0, axisPen);  // X 축
 }
 
 void MainWindow::loadCSVData(const QString &fileName)
@@ -111,13 +107,12 @@ LineModel MainWindow::fitLineWithLeastSquares(const QVector<QPointF> &points)
 // 최소제곱법으로 구한 직선을 그리기
 void MainWindow::drawBestFitLine(const LineModel &model)
 {
-    double x1 = -500, x2 = 500;
-    double y1 = model.slope * x1 + model.intercept;
-    double y2 = model.slope * x2 + model.intercept;
+    double y1 = model.slope * -500 + model.intercept;
+    double y2 = model.slope * 500 + model.intercept;
 
     QPen linePen(Qt::red);
     linePen.setWidth(2);
-    scene->addLine(x1, -y1, x2, -y2, linePen);
+    scene->addLine(-500, -y1, 500, -y2, linePen);
 
     // 기울기와 y절편 출력
     std::cout << "best line by least square logic a: " << model.slope << ", b: " << model.intercept << std::endl;

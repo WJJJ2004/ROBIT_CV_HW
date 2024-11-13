@@ -9,6 +9,11 @@
 #include <cstdlib>
 #include <ctime>
 
+/* 
+데이터 셋을 QGraphicView에 띄운 결과 데어터를 3개의 클러스터로 분리하는게 적합하다고 판단했습니다 . 
+
+*/
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -38,14 +43,10 @@ MainWindow::~MainWindow()
 
 void MainWindow::drawAxes()
 {
-    int originX = 0;
-    int originY = 0;
-
-    // X, Y 축 그리기
     QPen axisPen(Qt::black);
     axisPen.setWidth(2);
-    scene->addLine(originX, -1000, originX, 1000, axisPen);  // Y 축
-    scene->addLine(-1000, originY, 1000, originY, axisPen);  // X 축
+    scene->addLine(0, -1000, 0, 1000, axisPen);  // Y 축
+    scene->addLine(-1000, 0, 1000, 0, axisPen);  // X 축
 }
 
 void MainWindow::loadCSVData(const QString &fileName)

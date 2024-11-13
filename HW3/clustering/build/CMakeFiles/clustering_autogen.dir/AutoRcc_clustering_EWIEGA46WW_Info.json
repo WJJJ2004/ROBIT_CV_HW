@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW3/clustering/build/clustering_autogen",
+	"CMAKE_BINARY_DIR" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW3/clustering/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW3/clustering/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW3/clustering",
+	"CMAKE_SOURCE_DIR" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW3/clustering",
+	"INCLUDE_DIR" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW3/clustering/build/clustering_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW3/clustering/resources/data/coordinates.csv"
+	],
+	"LOCK_FILE" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW3/clustering/build/CMakeFiles/clustering_autogen.dir/AutoRcc_clustering_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "clustering" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_clustering.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW3/clustering/build/CMakeFiles/clustering_autogen.dir/AutoRcc_clustering_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW3/clustering/clustering.qrc",
+	"VERBOSITY" : 0
+}

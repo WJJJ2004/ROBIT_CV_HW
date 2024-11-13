@@ -1,8 +1,8 @@
-/home/lwj/RANSAC_test/build/CMakeFiles/RANSAC_test.dir
-/home/lwj/RANSAC_test/build/CMakeFiles/edit_cache.dir
-/home/lwj/RANSAC_test/build/CMakeFiles/rebuild_cache.dir
-/home/lwj/RANSAC_test/build/CMakeFiles/list_install_components.dir
-/home/lwj/RANSAC_test/build/CMakeFiles/install.dir
-/home/lwj/RANSAC_test/build/CMakeFiles/install/local.dir
-/home/lwj/RANSAC_test/build/CMakeFiles/install/strip.dir
-/home/lwj/RANSAC_test/build/CMakeFiles/RANSAC_test_autogen.dir
+/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles/RANSAC_test.dir
+/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles/edit_cache.dir
+/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles/rebuild_cache.dir
+/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles/list_install_components.dir
+/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles/install.dir
+/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles/install/local.dir
+/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles/install/strip.dir
+/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles/RANSAC_test_autogen.dir

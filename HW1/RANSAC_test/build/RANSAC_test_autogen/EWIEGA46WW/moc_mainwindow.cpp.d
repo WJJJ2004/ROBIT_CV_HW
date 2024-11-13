@@ -1,5 +1,5 @@
-/home/lwj/RANSAC_test/build/RANSAC_test_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/lwj/RANSAC_test/mainwindow.h \
-  /home/lwj/RANSAC_test/build/RANSAC_test_autogen/moc_predefs.h \
+/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/RANSAC_test_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/mainwindow.h \
+  /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/RANSAC_test_autogen/moc_predefs.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \

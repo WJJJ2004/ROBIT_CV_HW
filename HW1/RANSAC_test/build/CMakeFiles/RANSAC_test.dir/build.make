@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lwj/RANSAC_test
+CMAKE_SOURCE_DIR = /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lwj/RANSAC_test/build
+CMAKE_BINARY_DIR = /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RANSAC_test.dir/depend.make
@@ -73,64 +73,64 @@ RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp: ../RANSAC_test.qrc
 RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp: CMakeFiles/RANSAC_test_autogen.dir/AutoRcc_RANSAC_test_EWIEGA46WW_Info.json
 RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp: ../resources/data/coordinates.csv
 RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp: /usr/lib/qt5/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lwj/RANSAC_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for RANSAC_test.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/lwj/RANSAC_test/build/CMakeFiles/RANSAC_test_autogen.dir/AutoRcc_RANSAC_test_EWIEGA46WW_Info.json 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for RANSAC_test.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles/RANSAC_test_autogen.dir/AutoRcc_RANSAC_test_EWIEGA46WW_Info.json 
 
 CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.o: CMakeFiles/RANSAC_test.dir/flags.make
 CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.o: RANSAC_test_autogen/mocs_compilation.cpp
 CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.o: CMakeFiles/RANSAC_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lwj/RANSAC_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.o -MF CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.o -c /home/lwj/RANSAC_test/build/RANSAC_test_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.o -MF CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.o -c /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/RANSAC_test_autogen/mocs_compilation.cpp
 
 CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lwj/RANSAC_test/build/RANSAC_test_autogen/mocs_compilation.cpp > CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/RANSAC_test_autogen/mocs_compilation.cpp > CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lwj/RANSAC_test/build/RANSAC_test_autogen/mocs_compilation.cpp -o CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/RANSAC_test_autogen/mocs_compilation.cpp -o CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/RANSAC_test.dir/main.cpp.o: CMakeFiles/RANSAC_test.dir/flags.make
 CMakeFiles/RANSAC_test.dir/main.cpp.o: ../main.cpp
 CMakeFiles/RANSAC_test.dir/main.cpp.o: CMakeFiles/RANSAC_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lwj/RANSAC_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RANSAC_test.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RANSAC_test.dir/main.cpp.o -MF CMakeFiles/RANSAC_test.dir/main.cpp.o.d -o CMakeFiles/RANSAC_test.dir/main.cpp.o -c /home/lwj/RANSAC_test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RANSAC_test.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RANSAC_test.dir/main.cpp.o -MF CMakeFiles/RANSAC_test.dir/main.cpp.o.d -o CMakeFiles/RANSAC_test.dir/main.cpp.o -c /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/main.cpp
 
 CMakeFiles/RANSAC_test.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RANSAC_test.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lwj/RANSAC_test/main.cpp > CMakeFiles/RANSAC_test.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/main.cpp > CMakeFiles/RANSAC_test.dir/main.cpp.i
 
 CMakeFiles/RANSAC_test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RANSAC_test.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lwj/RANSAC_test/main.cpp -o CMakeFiles/RANSAC_test.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/main.cpp -o CMakeFiles/RANSAC_test.dir/main.cpp.s
 
 CMakeFiles/RANSAC_test.dir/mainwindow.cpp.o: CMakeFiles/RANSAC_test.dir/flags.make
 CMakeFiles/RANSAC_test.dir/mainwindow.cpp.o: ../mainwindow.cpp
 CMakeFiles/RANSAC_test.dir/mainwindow.cpp.o: CMakeFiles/RANSAC_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lwj/RANSAC_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RANSAC_test.dir/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RANSAC_test.dir/mainwindow.cpp.o -MF CMakeFiles/RANSAC_test.dir/mainwindow.cpp.o.d -o CMakeFiles/RANSAC_test.dir/mainwindow.cpp.o -c /home/lwj/RANSAC_test/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RANSAC_test.dir/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RANSAC_test.dir/mainwindow.cpp.o -MF CMakeFiles/RANSAC_test.dir/mainwindow.cpp.o.d -o CMakeFiles/RANSAC_test.dir/mainwindow.cpp.o -c /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/mainwindow.cpp
 
 CMakeFiles/RANSAC_test.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RANSAC_test.dir/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lwj/RANSAC_test/mainwindow.cpp > CMakeFiles/RANSAC_test.dir/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/mainwindow.cpp > CMakeFiles/RANSAC_test.dir/mainwindow.cpp.i
 
 CMakeFiles/RANSAC_test.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RANSAC_test.dir/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lwj/RANSAC_test/mainwindow.cpp -o CMakeFiles/RANSAC_test.dir/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/mainwindow.cpp -o CMakeFiles/RANSAC_test.dir/mainwindow.cpp.s
 
 CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.o: CMakeFiles/RANSAC_test.dir/flags.make
 CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.o: RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp
 CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.o: CMakeFiles/RANSAC_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lwj/RANSAC_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.o -MF CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.o.d -o CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.o -c /home/lwj/RANSAC_test/build/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.o -MF CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.o.d -o CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.o -c /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp
 
 CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lwj/RANSAC_test/build/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp > CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp > CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.i
 
 CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lwj/RANSAC_test/build/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp -o CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp -o CMakeFiles/RANSAC_test.dir/RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp.s
 
 # Object files for target RANSAC_test
 RANSAC_test_OBJECTS = \
@@ -151,7 +151,7 @@ RANSAC_test: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 RANSAC_test: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 RANSAC_test: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 RANSAC_test: CMakeFiles/RANSAC_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lwj/RANSAC_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable RANSAC_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable RANSAC_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RANSAC_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -163,6 +163,6 @@ CMakeFiles/RANSAC_test.dir/clean:
 .PHONY : CMakeFiles/RANSAC_test.dir/clean
 
 CMakeFiles/RANSAC_test.dir/depend: RANSAC_test_autogen/EWIEGA46WW/qrc_RANSAC_test.cpp
-	cd /home/lwj/RANSAC_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lwj/RANSAC_test /home/lwj/RANSAC_test /home/lwj/RANSAC_test/build /home/lwj/RANSAC_test/build /home/lwj/RANSAC_test/build/CMakeFiles/RANSAC_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles/RANSAC_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RANSAC_test.dir/depend
 

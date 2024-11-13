@@ -1,9 +1,0 @@
-/home/lwj/least_square/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/CMakeFiles/least_square.dir
-/home/lwj/least_square/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
-/home/lwj/least_square/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
-/home/lwj/least_square/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/CMakeFiles/list_install_components.dir
-/home/lwj/least_square/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/CMakeFiles/install.dir
-/home/lwj/least_square/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/CMakeFiles/install/local.dir
-/home/lwj/least_square/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/CMakeFiles/install/strip.dir
-/home/lwj/least_square/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/CMakeFiles/least_square_autogen_timestamp_deps.dir
-/home/lwj/least_square/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/CMakeFiles/least_square_autogen.dir

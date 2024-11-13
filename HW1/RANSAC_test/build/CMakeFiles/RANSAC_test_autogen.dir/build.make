@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lwj/RANSAC_test
+CMAKE_SOURCE_DIR = /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lwj/RANSAC_test/build
+CMAKE_BINARY_DIR = /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build
 
 # Utility rule file for RANSAC_test_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/RANSAC_test_autogen.dir/compiler_depend.make
 include CMakeFiles/RANSAC_test_autogen.dir/progress.make
 
 CMakeFiles/RANSAC_test_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lwj/RANSAC_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target RANSAC_test"
-	/usr/bin/cmake -E cmake_autogen /home/lwj/RANSAC_test/build/CMakeFiles/RANSAC_test_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target RANSAC_test"
+	/usr/bin/cmake -E cmake_autogen /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles/RANSAC_test_autogen.dir/AutogenInfo.json ""
 
 RANSAC_test_autogen: CMakeFiles/RANSAC_test_autogen
 RANSAC_test_autogen: CMakeFiles/RANSAC_test_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/RANSAC_test_autogen.dir/clean:
 .PHONY : CMakeFiles/RANSAC_test_autogen.dir/clean
 
 CMakeFiles/RANSAC_test_autogen.dir/depend:
-	cd /home/lwj/RANSAC_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lwj/RANSAC_test /home/lwj/RANSAC_test /home/lwj/RANSAC_test/build /home/lwj/RANSAC_test/build /home/lwj/RANSAC_test/build/CMakeFiles/RANSAC_test_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/build/CMakeFiles/RANSAC_test_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RANSAC_test_autogen.dir/depend
 

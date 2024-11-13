@@ -1,5 +1,7 @@
-CMakeFiles/RANSAC_test.dir/main.cpp.o: /home/lwj/RANSAC_test/main.cpp \
- /usr/include/stdc-predef.h /home/lwj/RANSAC_test/mainwindow.h \
+CMakeFiles/RANSAC_test.dir/main.cpp.o: \
+ /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/main.cpp \
+ /usr/include/stdc-predef.h \
+ /home/lwj/Documents/GitHub/ROBIT_CV_HW/HW1/RANSAC_test/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
