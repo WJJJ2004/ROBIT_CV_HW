@@ -6,6 +6,7 @@
 #include <QGraphicsLineItem>
 #include <QPen>
 #include <QDebug>
+#include <iostream>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -18,9 +19,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->graphicsView->setScene(scene);
     ui->graphicsView->setRenderHint(QPainter::Antialiasing);
 
-    // QGraphicsView의 좌표계를 변환하여 Y축을 위로 증가하도록 설정하고
-    // 원점을 화면 중앙으로 이동
-    ui->graphicsView->scale(-1, -1);  // Y축 반전
+    ui->graphicsView->scale(-1, -1);
     ui->graphicsView->setSceneRect(-500, -500, 1000, 1000);  // 중앙을 원점으로 설정
 
     drawAxes();  // XY 축을 그리는 함수 호출
@@ -38,7 +37,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::drawAxes()
 {
-    // XY 축의 원점 설정 (좌측 중앙부)
     int originX = 50;
     int originY = 0;
 
@@ -91,11 +89,13 @@ void MainWindow::loadCSVData(const QString &fileName)
 }
 
 // 최소제곱법으로 최적의 직선 모델 계산
-LineModel MainWindow::fitLineWithLeastSquares(const QVector<QPointF> &points) {
+LineModel MainWindow::fitLineWithLeastSquares(const QVector<QPointF> &points)
+{
     double sumX = 0, sumY = 0, sumXY = 0, sumX2 = 0;
     int n = points.size();
 
-    for (const auto &point : points) {
+    for (const auto &point : points)
+    {
         sumX += point.x();
         sumY += point.y();
         sumXY += point.x() * point.y();
@@ -109,12 +109,16 @@ LineModel MainWindow::fitLineWithLeastSquares(const QVector<QPointF> &points) {
 }
 
 // 최소제곱법으로 구한 직선을 그리기
-void MainWindow::drawBestFitLine(const LineModel &model) {
+void MainWindow::drawBestFitLine(const LineModel &model)
+{
     double x1 = -500, x2 = 500;
     double y1 = model.slope * x1 + model.intercept;
     double y2 = model.slope * x2 + model.intercept;
 
     QPen linePen(Qt::red);
     linePen.setWidth(2);
-    scene->addLine(x1, -y1, x2, -y2, linePen);  // Y 좌표를 반전하여 화면에 그리기
+    scene->addLine(x1, -y1, x2, -y2, linePen);
+
+    // 기울기와 y절편 출력
+    std::cout << "best line by least square logic a: " << model.slope << ", b: " << model.intercept << std::endl;
 }

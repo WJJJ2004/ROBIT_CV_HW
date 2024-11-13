@@ -44,3 +44,11 @@
 124	880	1731353607221134660	CMakeFiles/clustering.dir/main.cpp.o	e9659da975ca8c3f
 124	1099	1731353607221134660	CMakeFiles/clustering.dir/mainwindow.cpp.o	c46e48e11e4c035
 1099	1312	1731353608196125528	clustering	838b476095c0aed5
+1	119	1731486192868052124	clustering_autogen/timestamp	4310a462a32a0b7a
+1	119	1731486192868052124	clustering_autogen/mocs_compilation.cpp	4310a462a32a0b7a
+1	119	1731486192868052124	/home/lwj/clustering/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/clustering_autogen/timestamp	4310a462a32a0b7a
+1	119	1731486192868052124	/home/lwj/clustering/build/Desktop_Qt_5_15_17_GCC_64bit-Debug/clustering_autogen/mocs_compilation.cpp	4310a462a32a0b7a
+119	773	1731486192876046754	CMakeFiles/clustering.dir/clustering_autogen/mocs_compilation.cpp.o	d389a77e71d358d6
+119	856	1731486192876046754	CMakeFiles/clustering.dir/main.cpp.o	e9659da975ca8c3f
+119	1056	1731486192876046754	CMakeFiles/clustering.dir/mainwindow.cpp.o	c46e48e11e4c035
+1056	1254	1731486193813429719	clustering	838b476095c0aed5

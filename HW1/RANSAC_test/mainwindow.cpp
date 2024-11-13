@@ -173,4 +173,7 @@ void MainWindow::drawBestFitLine(const LineModel &model)
     QPen linePen(Qt::red);
     linePen.setWidth(2);
     scene->addLine(x1, -y1, x2, -y2, linePen);  // Y 좌표를 반전하여 화면에 그리기
+
+    // 기울기와 y절편 출력
+    std::cout << "Best Line by RANSAC logic a: " << model.slope << ", b: " << model.intercept << std::endl;
 }

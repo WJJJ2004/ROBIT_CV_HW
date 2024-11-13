@@ -6,7 +6,8 @@
 #include <QPointF>
 #include <QVector>
 
-namespace Ui {
+namespace Ui
+{
 class MainWindow;
 }
 

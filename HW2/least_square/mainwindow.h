@@ -6,12 +6,14 @@
 #include <QPointF>
 #include <QVector>
 
-namespace Ui {
+namespace Ui
+{
 class MainWindow;
 }
 
 // 직선 모델을 표현하는 구조체
-struct LineModel {
+struct LineModel
+{
     double slope;     // 기울기
     double intercept; // 절편
 };

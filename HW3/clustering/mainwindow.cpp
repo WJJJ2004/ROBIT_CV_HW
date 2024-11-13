@@ -21,7 +21,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->graphicsView->setRenderHint(QPainter::Antialiasing);
 
     // QGraphicsView의 좌표계를 변환하여 Y축만 반전하여 위로 증가하도록 설정
-    ui->graphicsView->scale(1, -1);
+    ui->graphicsView->scale(-1, -1);
     ui->graphicsView->setSceneRect(-1000, -1000, 2000, 2000);  // 중앙을 원점으로 설정
 
     drawAxes();  // XY 축을 그리는 함수 호출
@@ -88,28 +88,34 @@ void MainWindow::kMeansClustering(int k)
     // 초기 클러스터 중심 설정 (랜덤 선택)
     QVector<QPointF> centroids;
     srand(time(0));
-    for (int i = 0; i < k; ++i) {
+    for (int i = 0; i < k; ++i)
+    {
         int randomIndex = rand() % points.size();
         centroids.append(points[randomIndex]);
     }
 
     bool hasConverged = false;
-    while (!hasConverged) {
+    while (!hasConverged)
+    {
         hasConverged = true;
 
         // 각 포인트를 가장 가까운 클러스터에 할당
-        for (int i = 0; i < points.size(); ++i) {
+        for (int i = 0; i < points.size(); ++i)
+        {
             double minDist = std::numeric_limits<double>::max();
             int bestCluster = 0;
-            for (int j = 0; j < k; ++j) {
-                double dist = std::pow(points[i].x() - centroids[j].x(), 2) +
-                              std::pow(points[i].y() - centroids[j].y(), 2);
-                if (dist < minDist) {
+            for (int j = 0; j < k; ++j)
+            {
+                double dist = std::pow(points[i].x() - centroids[j].x(), 2) + std::pow(points[i].y() - centroids[j].y(), 2);
+
+                if (dist < minDist)
+                {
                     minDist = dist;
                     bestCluster = j;
                 }
             }
-            if (labels[i] != bestCluster) {
+            if (labels[i] != bestCluster)
+            {
                 labels[i] = bestCluster;
                 hasConverged = false;
             }
@@ -118,19 +124,22 @@ void MainWindow::kMeansClustering(int k)
         // 클러스터의 중심 업데이트
         QVector<QPointF> newCentroids(k, QPointF(0, 0));
         QVector<int> count(k, 0);
-        for (int i = 0; i < points.size(); ++i) {
+        for (int i = 0; i < points.size(); ++i)
+        {
             newCentroids[labels[i]] += points[i];
             count[labels[i]] += 1;
         }
-        for (int j = 0; j < k; ++j) {
+
+        for (int j = 0; j < k; ++j)
+        {
             if (count[j] > 0)
                 centroids[j] = QPointF(newCentroids[j].x() / count[j], newCentroids[j].y() / count[j]);
         }
     }
 
-    // 클러스터에 따라 점 색상 설정 및 시각화
     QVector<QColor> colors = {Qt::red, Qt::green, Qt::blue}; // 각 클러스터의 색상
-    for (int i = 0; i < points.size(); ++i) {
+    for (int i = 0; i < points.size(); ++i)
+    {
         QGraphicsEllipseItem *pointItem = new QGraphicsEllipseItem(points[i].x() * 50 - 1.5, -points[i].y() * 50 - 1.5, 3, 3);
         pointItem->setBrush(colors[labels[i]]);
         scene->addItem(pointItem);
