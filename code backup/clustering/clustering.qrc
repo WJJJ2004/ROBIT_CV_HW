@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>resources/data/coordinates.csv</file>
-    </qresource>
-</RCC>
-
